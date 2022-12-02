@@ -2,4 +2,4 @@
 #### Respond to the following:
 
 1. How do you isolate the ones digit of a number?
-  * **YOUR WRITING HERE**
+   you use mode 10 to get the ones digit of a number
