@@ -20,5 +20,5 @@
 | F  | F  |    F     |     T        |  T |  T |     T    |
 
 3. What does DeMorgan's state and how did you prove it for the case above?
-  * **YOUR WRITING HERE**
+ 
 WHEN YOU DISTRUBUTE A NOT CHANGES THE SING TO AN AND WHICH SHOULD HAVE THE SAME TRUES AND FALSES.
