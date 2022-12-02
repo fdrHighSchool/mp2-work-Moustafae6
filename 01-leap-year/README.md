@@ -3,36 +3,31 @@
 
 1. Rewrite the following nested `if()` statements in a single line:
   ```
-  if (year % 4 == 0) {
-      if (year % 100 != 0) {
-        // DO STUFF
-      } // end inner if statement
+  if (year % 4 == 0 || year % 100 != 0) { 
+          // DO STUFF
    } // end outer if statement
   ```
-  * **YOUR WRITING HERE**
-
 
 2. Label each as either correct or incorrect syntax. If incorrect, rewrite below:
   * if (x == y) {
-
-    * **YOUR WRITING HERE**
-
+    correct.
+    
   * if [x == 10] {
+        incorrect
+     if (x == 10) {
 
-    * **YOUR WRITING HERE**
-
-  * if x = 10 then {
-
-    * **YOUR WRITING HERE**
-
+  * if x = 10 then { 
+        incorrect
+    if (x = 10 ) {
+    // do stuff
+   else{
+     // do stuff
   * if (x equals 42) {
-
-    * **YOUR WRITING HERE**
-
+        incorrect
+     if (x == 42) {
   * if (x => y) {
-
-    * **YOUR WRITING HERE**
-
+        incorrect 
+    if (x>= y){
 
 3. Fix the error in the code below:
 
