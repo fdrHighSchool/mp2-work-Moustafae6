@@ -13,21 +13,18 @@
     correct.
     
   * if [x == 10] {
-        incorrect
-     if (x == 10) {
+        incorrect: if (x == 10) {
 
   * if x = 10 then { 
-        incorrect
-    if (x = 10 ) {
+       
+    incorrect: if (x = 10 ) {
     // do stuff
    else{
      // do stuff
   * if (x equals 42) {
-        incorrect
-     if (x == 42) {
+        incorrect: if (x == 42) {
   * if (x => y) {
-        incorrect 
-    if (x>= y){
+        incorrect: if (x>= y){
 
 3. Fix the error in the code below:
 
@@ -39,5 +36,16 @@
       System.out.println("Mine, too!");
   }
   ```
+   
+  import java.util.Scanner;
+public class test {
+    public static void main(String[]args){
+      Scanner console = new Scanner(System.in);
+      System.out.print("What is your favorite color? ");
+      String name = console.next();
+      if (name.equals( "blue")) {
+       System.out.println("Mine, too!");
+    }
+  }
+}
 
-  * **YOUR WRITING HERE**
