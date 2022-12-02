@@ -3,17 +3,15 @@
 
 1. *In your own words*, discuss what each String method does:
   * `.substring(a)`
-    * **YOUR WRITING HERE**
+    it removes string from a bigger string like taking a letter out of a word
 
   * `.substring(a, b)`
-    * **YOUR WRITING HERE**
+    it removes a part of the word
 
   * `.indexOf(str)`
-    * **YOUR WRITING HERE**
-
+it tell you where is the postion of the letter or character
   * `.equals(str)`
-    * **YOUR WRITING HERE**
-
+its the same thing as == but for strings 
 
 2. *In your own words*, discuss what the following `for` loop accomplishes for `String s`:
 ```
@@ -21,4 +19,4 @@ for(int i = 0; i < s.length(); i++) {
       // DO STUFF
 }
 ```
-  * **YOUR WRITING HERE**
+start at 0 and keep going if i is less than the length of s.
